@@ -9,8 +9,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final ios = defaultTargetPlatform == TargetPlatform.iOS;
   String appSecret = ios
-      ? "4af58ac7-a735-4d00-87c1-59c884131ae6"
-      : "4f45857b-fe61-47c3-936c-108ae6312b31";
+      ? "450f6caa-9c38-416a-b491-e4e78b5fff02"
+      : "57710a96-c2fb-4aba-bbc1-eeab08ae6834";
 
   await AppCenter.start(appSecret, [AppCenterAnalytics.id, AppCenterCrashes.id]);
 
