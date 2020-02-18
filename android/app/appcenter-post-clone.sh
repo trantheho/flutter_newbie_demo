@@ -2,7 +2,7 @@
 #Place this script in project/android/app/
 
 cd ..
-
+chmod +x ./gradlew
 # fail if any command fails
 set -e
 # debug log
